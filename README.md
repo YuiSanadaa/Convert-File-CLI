@@ -44,8 +44,6 @@ Options:
       --help     Show help                                             [boolean]
 ```
 
-> :warning: **You can also use the ISO-639-1 code of the language instead of writing the full language name**
-
 <br>
 
 ## Installation
