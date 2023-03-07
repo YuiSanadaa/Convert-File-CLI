@@ -1,0 +1,41 @@
+{
+  "1": {
+    "date": "  ##  ##      RabbitMQ 3.8.2"
+  },
+  "2": {
+    "date": "  ##  ##"
+  },
+  "3": {
+    "date": "  ##########  Copyright (c) 2007-2019 Pivotal Software"
+  },
+  "4": {
+    "date": "  ######  ##"
+  },
+  "5": {
+    "date": "  ##########  Licensed under the MPL 1.1. Website: https://rabbitmq.com"
+  },
+  "6": {
+    "date": "  Doc guides: https://rabbitmq.com/documentation.html"
+  },
+  "7": {
+    "date": "  Support:    https://rabbitmq.com/contact.html"
+  },
+  "8": {
+    "date": "  Tutorials:  https://rabbitmq.com/getstarted.html"
+  },
+  "9": {
+    "date": "  Monitoring: https://rabbitmq.com/monitoring.html"
+  },
+  "10": {
+    "date": "  Logs: /var/log/rabbitmq/rabbit@raihanubhawa-ThinkBook-15-G3-ACL.log"
+  },
+  "11": {
+    "date": "        /var/log/rabbitmq/rabbit@raihanubhawa-ThinkBook-15-G3-ACL_upgrade.log"
+  },
+  "12": {
+    "date": "  Config file(s): (none)"
+  },
+  "13": {
+    "date": "  Starting broker... completed with 3 plugins."
+  }
+}
