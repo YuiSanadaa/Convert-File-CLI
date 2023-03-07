@@ -9,12 +9,8 @@
   <img  src="https://img.shields.io/badge/node-v12.18.2-yellow">
  </p>
  <br>
-<p align="center">A Sample CLI tool to translate language in the terminal.</p>
+<p align="center">A Sample CLI tool to Convert File Logs</p>
 <br>
-
-<p align="center">
-<img src="images/mycli.gif" alt="demonstration" height="500" width="800" >  
-</p>
 
 
 ---
@@ -22,30 +18,30 @@
 ## Usage
 
 ```
-~$ mycli --help
-  __  __            ____   _       ___ 
- |  \/  |  _   _   / ___| | |     |_ _|
- | |\/| | | | | | | |     | |      | | 
- | |  | | | |_| | | |___  | |___   | | 
- |_|  |_|  \__, |  \____| |_____| |___|
-           |___/                       
+~$ mytools --help
+  __  __           _____                   _       
+ |  \/  |  _   _  |_   _|   ___     ___   | |  ___ 
+ | |\/| | | | | |   | |    / _ \   / _ \  | | / __|
+ | |  | | | |_| |   | |   | (_) | | (_) | | | \__ \
+ |_|  |_|  \__, |   |_|    \___/   \___/  |_| |___/
+           |___/                                   
 
-Usage: mycli -l <language>  -s <sentence>
-┌────────────────────────────────────────────────┐
-│                                                │
-│                                                │
-│   Translates a sentence to specific language   │
-│                                                │
-│                                                │
-└────────────────────────────────────────────────┘
+Usage: mytools -p <Path Directory Log> -t <Type Of Convert> -o <Output File>
+┌──────────────────────┐
+│                      │
+│                      │
+│   Convert Log File   │
+│                      │
+│                      │
+└──────────────────────┘
 
 
 Options:
-      --version   Show version number                                  [boolean]
-  -l, --language  Translate to language                                 [string]
-  -s, --sentence  Sentence to be translated                             [string]
-      --help      Show help                                            [boolean]
-
+      --version  Show version number                                   [boolean]
+  -p, --path     Path Directory Logs                                    [string]
+  -o, --output   Path Directory Output                                  [string]
+  -t, --type     Convert Type ( text or json )                          [string]
+      --help     Show help                                             [boolean]
 ```
 
 > :warning: **You can also use the ISO-639-1 code of the language instead of writing the full language name**
@@ -66,10 +62,10 @@ PATH="./node_modules/.bin:$PATH"
 ```
 4. Now you are good to go and can use the CLI globally!
 
-Type ```mycli``` or ```mycli --help``` to get started.
+Type ```mytools``` or ```mytools --help``` to get started.
 
 <br>
 
 ## License
 
-MIT © ***MyCLI***
+MIT © ***MyTools***
